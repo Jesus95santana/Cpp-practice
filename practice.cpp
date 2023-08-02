@@ -3,13 +3,14 @@
 int main()
 {
 
-    // Write a for loop here:
+    // Output from 1 to steps:
 
-    for (int i = 99; i > 0; i--)
+    int steps = 10;
+
+    for (int i = 1; i <= steps; i++)
     {
 
-        std::cout << i << " bottles of pop on the wall.\n";
-        std::cout << "Take one down and pass it around.\n";
-        std::cout << i - 1 << " bottles of pop on the wall.\n\n";
+        std::cout << "Step #";
+        std::cout << i << "\n";
     }
 }
